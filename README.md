@@ -61,7 +61,7 @@ Une relation est un lien entre deux tables de [BDD](#bdd),qui associe les donné
 * de plusieurs enregistrement à plusieurs autres( de **∞ à ∞**). Exemple: un produit peut avoir plusieurs vendeur et un vendeur peut vendre plusieurs produits.
 
 ### <a name="crud">Les fonctions du CRUD</a>
-L'acronyme CRUD (Create ou création, Read ou lecture, update ou modification, delete ou suppression) indique les 4 opérations de base pour gérer tout type de données. Chaque fonctions est importantes et s'il en manque un dans un logiciel, celui ci est incopmplet. Chaque composante du CRUD peut être associée à un type de requête SQL ainsi qu'à une methode HTTP.
+L'acronyme CRUD (**Create** ou création,**Read** ou lecture, **Update** ou modification, **Delete** ou suppression) indique les 4 opérations de base pour gérer tout type de données. Chaque fonctions est importantes et s'il en manque un dans un logiciel, celui ci est incopmplet. Chaque composante du CRUD peut être associée à un type de requête SQL ainsi qu'à une methode HTTP.
 
 | Operation      | SQL          | HTTP |
 | ------------- |:-------------:| -----:|
