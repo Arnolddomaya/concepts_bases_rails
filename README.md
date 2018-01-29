@@ -37,13 +37,20 @@ Les bases de données (BDD) permettent d'enregistrer les informations d'un site 
 
 
 ### <a name="getPost">GET / POST</a>
-==tableau sur getPost==
+
 GET et POST sont deux méthodes de requête-réponse entre le client et le server dans le protocole **HTTP**. HTTP(Hypertext Transfer Protocol) à été crée pour permettre la communication entre un client et le serveur. Un navigateur peut être le client et une application sur un ordinateur qui héberge un site web, le server.
+
+#### Quelques differences entre GET et POST
+GET   | POST          
+--- | ---
+paramètres dans l'**url** | paramètres dans **body**
+limitation de longueur | pas de limitation de longueur
+garder dans le cache | pas garder dans le cache  
 
 ### <a name="migration">Le concept de migration</a>
 La conception d'un site web se fait la plus part de temps en local. Le programme interagis avec une base de données(BDD) local et toutes les modifications que le programme fera à la BDD locale seront a refaire lorsque qu'on mettra le site en ligne. C'est là qu'interviennent  **les migrations**.
 
-Une migration comporte un schema et des changements qui sont indépendants de la BDD et qui sont ainsi **transportable** à toute les autres BDD. Elles sont écrites avec la syntaxe de Ruby ce qui ce qui peut faciliter la tâche par raport au requete SQL. [Page](http://194.199.252.232/moteurs/aidenligne/pages/liens-excel.htm) qui explique le concept plus en profondeur.
+Une migration comporte un schema et des changements qui sont indépendants de la BDD et qui sont ainsi **transportable** à toute les autres BDD. Elles sont écrites avec la syntaxe de Ruby ce qui ce qui peut faciliter la tâche par raport au requete SQL. [Page](http://guides.rubyonrails.org/v3.2/migrations.html) qui explique le concept plus en profondeur.
 
 ### <a name="relations_bdd">Les relations entre les models des BDD</a>
 Une relation est un lien entre deux tables de [BDD](#bdd),qui associe les données de la première avec celle de la deuxième.
