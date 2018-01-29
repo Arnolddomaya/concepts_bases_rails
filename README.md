@@ -17,7 +17,9 @@
 ### <a name="d_stat_dy">La différence entre un site statique et un site dynamique</a>
 ==lien site==
 En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est statique ou dynamique.
+
 **statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
+
 **dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
 
 ### <a name="mvc">Le MVC</a>
@@ -27,12 +29,7 @@ En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est st
 ### <a name="bdd">Les Bases de Données</a>
 Les bases de données (BDD) permettent d'enregistrer les informations d'un site web pour pouvoir le récupérer plus tard. Les [principales bases de données](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2) sont **MySQL**, **PostgreSQL**, **oracle**, **SQLServer**, **SQLite**.Ils sont comparables à des tableur Excel géants. Pour dialoguer avec ces BDD il faut utiliser le language [Sql](https://fr.wikipedia.org/wiki/Structured_Query_Language) et émettre des instructions qui sont appelées des **requêtes**. [Quelques exemples de requêtes](http://www.sqlfacile.com/apprendre_bases_de_donnees/sql_par_l_exemple_1).
 
-clés
-bases de données communicants entre elles
--comment on y accède: en utilisant un language SQL
--tableur excel géants
--instructions
--r"quêtes sql
+
 ### <a name="getPost">GET / POST</a>
 
 ### <a name="migration">Le concept de migration</a>
@@ -44,7 +41,11 @@ L'acronyme CRUD (Create ou création, Read ou lecture, update ou modification, d
 
 | Operation      | SQL          | HTTP |
 | ------------- |:-------------:| -----:|
-|Create         |INSERT         |POST  |
-|Read (Retrieve)   |SELECT     |GET |
-|Update (Modify) |UPDATE      |PUT  |
-|Delete (Destroy)|DELETE      |DELETE |
+|Create         |INSERT         |POST|
+|Read (Retrieve)   |SELECT     |GET|
+|Update (Modify) |UPDATE      |PUT|
+|Delete (Destroy)|DELETE      |DELETE|
+
+
+---
+Powered by arnold_domaya/Slack :@domaya_arnold
