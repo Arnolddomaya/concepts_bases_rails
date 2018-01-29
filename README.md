@@ -18,9 +18,9 @@
 ==lien site==
 En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est statique ou dynamique.
 
-**statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
+**Statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
 
-**dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
+**Dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
 
 ### <a name="mvc">Le MVC</a>
 
@@ -31,6 +31,7 @@ Les bases de données (BDD) permettent d'enregistrer les informations d'un site 
 
 
 ### <a name="getPost">GET / POST</a>
+GET et POST sont deux
 
 ### <a name="migration">Le concept de migration</a>
 
