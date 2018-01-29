@@ -1,6 +1,6 @@
 
 # Les concepts de base  de ruby on rails
-Ce fichier propose quelques explications sur les concepts de bases de ruby on rails. Les explications prennent les concepts dans le cadre générales et ne remettent pas forcement les concepts dans le contexte de ruby on rails. 
+Ce fichier propose quelques explications sur les concepts de bases de ruby on rails. Les explications prennent les concepts dans le cadre générale et ne remettent pas forcement les concepts dans le contexte de ruby on rails.
 
 #### Sommaire
 
@@ -16,12 +16,11 @@ Ce fichier propose quelques explications sur les concepts de bases de ruby on ra
 
 
 ### <a name="d_stat_dy">La différence entre un site statique et un site dynamique</a>
-==lien site==
 En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est statique ou dynamique.
 
-**Statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
+**Statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation. [Exemple de page statique](http://194.199.252.232/moteurs/aidenligne/pages/liens-excel.htm).
 
-**Dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
+**Dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer. Exemple: page d’accueil de [Youtube](https://www.youtube.com/) qui change en fonction de si on est loggé ou pas.
 
 ### <a name="mvc">Le MVC</a>
 
@@ -32,9 +31,13 @@ Les bases de données (BDD) permettent d'enregistrer les informations d'un site 
 
 
 ### <a name="getPost">GET / POST</a>
+==tableau sur getPost==
 GET et POST sont deux méthodes de requête-réponse entre le client et le server dans le protocole **HTTP**. HTTP(Hypertext Transfer Protocol) à été crée pour permettre la communication entre un client et le serveur. Un navigateur peut être le client et une application sur un ordinateur qui héberge un site web, le server.
 
 ### <a name="migration">Le concept de migration</a>
+La conception d'un site web se fait la plus part de temps en local. Le programme interagis avec une base de données(BDD) local et toutes les modifications que le programme fera à la BDD locale seront a refaire lorsque qu'on mettra le site en ligne. C'est là qu'interviennent  **les migrations**.
+
+Une migration comporte un schema et des changements qui sont indépendants de la BDD et qui sont ainsi **transportable** à toute les autres BDD. Elles sont écrites avec la syntaxe de Ruby ce qui ce qui peut faciliter la tâche par raport au requete SQL. [Page](http://194.199.252.232/moteurs/aidenligne/pages/liens-excel.htm) qui explique le concept plus en profondeur.
 
 ### <a name="relations_bdd">Les relations entre les models des BDD</a>
 Une relation est un lien entre deux tables de [BDD](#bdd),qui associe les données de la première avec celle de la deuxième.
