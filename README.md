@@ -25,9 +25,14 @@ En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est st
 ### <a name="routes">Les routes</a>
 
 ### <a name="bdd">Les Bases de Données</a>
+Les bases de données (BDD) permettent d'enregistrer les informations d'un site web pour pouvoir le récupérer plus tard. Les [principales bases de données](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2) sont **MySQL**, **PostgreSQL**, **oracle**, **SQLServer**, **SQLite**.Ils sont comparables à des tableur Excel géants. Pour dialoguer avec ces BDD il faut utiliser le language [Sql](https://fr.wikipedia.org/wiki/Structured_Query_Language) et émettre des instructions qui sont appelées des **requêtes**.
+
 clés
 bases de données communicants entre elles
-
+-comment on y accède: en utilisant un language SQL
+-tableur excel géants
+-instructions
+-r"quêtes sql
 ### <a name="getPost">GET / POST</a>
 
 ### <a name="migration">Le concept de migration</a>
