@@ -3,14 +3,14 @@
 
 #### table of content
 
- [La différence entre un site statique et un site dynamique](#d_stat_dy)
- [Le MVC](#mvc)
- [Les routes](#routes)
- [Les Bases de Données](#bdd)
- [GET / POST](#getPost)
- [Le concept de migration](#migration)
- [Les relations entre les models des BDD](#relations_bdd)
- [Les fonctions du CRUD](#crud)
+* [La différence entre un site statique et un site dynamique](#d_stat_dy)
+* [Le MVC](#mvc)
+* [Les routes](#routes)
+* [Les Bases de Données](#bdd)
+* [GET / POST](#getPost)
+* [Le concept de migration](#migration)
+* [Les relations entre les models des BDD](#relations_bdd)
+* [Les fonctions du CRUD](#crud)
 
 
 
