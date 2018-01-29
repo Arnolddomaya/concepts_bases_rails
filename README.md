@@ -17,8 +17,8 @@
 ### <a name="d_stat_dy">La différence entre un site statique et un site dynamique</a>
 ==lien site==
 En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est statique ou dynamique.
-* statique : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
-* dynamique: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
+**statique** : le site ne requiert pas d'informations de la part de l'utilisateur et une page ne peut offrir qu'un affichage unique. On peut faire une analogie avec une constante en programmation.
+**dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer.
 
 ### <a name="mvc">Le MVC</a>
 
@@ -40,4 +40,11 @@ bases de données communicants entre elles
 ### <a name="relations_bdd">Les relations entre les models des BDD</a>
 
 ### <a name="crud">Les fonctions du CRUD</a>
-Le CRUD (Create ou création, Read ou lecture, update ou modification, delete ou suppression) indique les 4 opérations de base pour gérer tout type de données. Chaque fonctions est importantes et s'il en manque un dans un logiciel, celui ci est incopmplet.
+L'acronyme CRUD (Create ou création, Read ou lecture, update ou modification, delete ou suppression) indique les 4 opérations de base pour gérer tout type de données. Chaque fonctions est importantes et s'il en manque un dans un logiciel, celui ci est incopmplet. Chaque composante du CRUD peut être associée à un type de requête SQL ainsi qu'à une methode HTTP.
+
+| Operation      | SQL          | HTTP |
+| ------------- |:-------------:| -----:|
+|Create         |INSERT         |POST  |
+|Read (Retrieve)   |SELECT     |GET |
+|Update (Modify) |UPDATE      |PUT  |
+|Delete (Destroy)|DELETE      |DELETE |
