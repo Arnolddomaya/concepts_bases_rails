@@ -23,8 +23,14 @@ En fonction des échanges qu'un site peut avoir avec ses utilisateurs, il est st
 **Dynamique**: le site interpelle l'utilisateur pour récupérer des informations, et réagit différemment en fonction de ce qu'il reçoit de l'utilisateur. Ainsi une même page peut avoir plusieurs affichages différents(si l'utilisateur se connecte ou pas par exemple). On peut faire une analogie avec une variable en programmation dont la valeur peut changer. Exemple: page d’accueil de [Youtube](https://www.youtube.com/) qui change en fonction de si on est loggé ou pas.
 
 ### <a name="mvc">Le MVC</a>
+MVC(Model, View, Controler) est l'architecture des applications Rails. Chaque appli Rails est constitué de:
+* **modèles (Model)** qui communiquent avec la BDD et permettent de recuperer ou d'inserer des eléments.
+* **vues (view)** qui sont des affichages qui sont présentés à l’utilisateur et constituent l'interface entre le programme et l'utilisateur.
+* <a name= "ctr">**controlleur (controller)**</a> qui peuvent être comparé à des robots qui font un travail **précis** à l’intérieur de l'ordinateur. Ces robots robots sont contactés par un message provenant de l'interface qui est appelé **route**. Ils vont ensuite aller passer par le décodage des *modèles* pour récupérer des données dans la BDD puis récupérer un affichage en fonction des données récupérés dans les *vues* et enfin, transmettre cet affichage à l'interface qui va le présenter à l'utilisateur.
+![alt text](mcv_schema.png)
 
 ### <a name="routes">Les routes</a>
+Les **routes** peuvent être considérés comme des messages qui vont être transmis à un [robot précis](#ctr). Chaque *route* induit l'activité d'un *controller* précis qui va declencher une cascades d'actions précises. Cette [page web](http://guides.rubyonrails.org/routing.html) approfondit bien le concept.
 
 ### <a name="bdd">Les Bases de Données</a>
 Les bases de données (BDD) permettent d'enregistrer les informations d'un site web pour pouvoir le récupérer plus tard. Les [principales bases de données](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2) sont **MySQL**, **PostgreSQL**, **oracle**, **SQLServer**, **SQLite**.Ils sont comparables à des tableur Excel géants. Pour dialoguer avec ces BDD il faut utiliser le language [Sql](https://fr.wikipedia.org/wiki/Structured_Query_Language) et émettre des instructions qui sont appelées des **requêtes**. [Quelques exemples de requêtes](http://www.sqlfacile.com/apprendre_bases_de_donnees/sql_par_l_exemple_1).
